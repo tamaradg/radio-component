@@ -7,4 +7,12 @@ body {
   width: 300px;
   text-align: center;
   border-radius: 25px;
+  background-color: darkgoldenrod;
+}
+
+#title {
+}
+
+#radios {
+  background-color: darkslategray;
 }
