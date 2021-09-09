@@ -3,16 +3,44 @@ body {
 }
 
 #card {
-  border: 1px solid black;
+  border-color: none;
   width: 300px;
   text-align: center;
   border-radius: 25px;
-  background-color: darkgoldenrod;
+  background-color: rgb(55, 70, 70);
+  margin-left: 20px;
+  margin-top: 20px;
+  box-shadow: 1px 10px 15px grey;
+  overflow: hidden;
 }
 
 #title {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(206, 166, 65);
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#title i {
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 #radios {
-  background-color: darkslategray;
+  margin: auto;
+}
+
+.radio {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.radio p {
+  padding: 10px;
+  color: white;
 }
